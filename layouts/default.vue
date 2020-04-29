@@ -13,8 +13,8 @@ import Sidebar from '@/components/Sidebar.vue'
 export default {
   components:{
     Nav,
+    Sidebar,
     Footer,
-    Sidebar
   }
 }
 </script>
