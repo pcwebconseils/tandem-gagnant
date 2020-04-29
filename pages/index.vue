@@ -1,13 +1,20 @@
 <template>
   <main class="container-fluid">
-    <section class="row justify-content-left">
-      <div class="col-md-2 m-5">
+    <section class="row justify-content-around">
+      <div class="col-md-2">
         <logo />
       </div>
       <nuxt-link to="/" class="links">
-      <article class="col-md-4 about">
+      <article class="col-md-6 about">
         <h2>Titre</h2>
-        <p>Présentation</p>
+        <p class="intro">  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad error exercitationem suscipit mollitia iure rerum ex facilis omnis inventore. Unde architecto esse laboriosam maiores assumenda expedita est mollitia eaque error.</p>
+        <img src="@/static/logo.png" alt="a propos de tandem gangant">
+      </article>
+      </nuxt-link>
+      <nuxt-link to="/" class="links">
+      <article class="col-md-4 mr-5 mt-5 contact">
+        <h2 class="txt-sm">Titre</h2>
+        <p class="intro">  Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         <img src="@/static/logo.png" alt="a propos de tandem gangant">
       </article>
       </nuxt-link>
@@ -67,5 +74,27 @@ export default {
   border: 1px solid black;
   border-radius: 50%;
   text-align: center;
+}
+.about img{
+  width: 50%;
+}
+.intro{
+  text-align: justify;
+  width: 75%;
+  margin: auto;
+  padding-top: 2em;
+}
+.contact{
+  overflow: hidden;
+  max-width: 200px;
+  min-width: 200px;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 50%;
+  text-align: center;
+}
+.contact img{
+  width: 50%;
 }
 </style>

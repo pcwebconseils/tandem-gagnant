@@ -16,5 +16,10 @@
   position: fixed;
   bottom: 0;
 }
-
+a{
+  color: azure;
+}
+a:hover{
+  color: azure;text-decoration: none;font-size: large;
+}
 </style>
