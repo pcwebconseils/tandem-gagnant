@@ -66,12 +66,14 @@ export default {
   font-size: 3em;
 }
 .about{
+  padding-top: 3em;
+  padding-bottom: 0;
   overflow: hidden;
   max-width: 400px;
   min-width: 400px;
   width: 400px;
   height: 400px;
-  border: 1px solid black;
+  border: 3px solid rgb(231, 139, 0);
   border-radius: 50%;
   text-align: center;
 }
@@ -86,10 +88,10 @@ export default {
 }
 .contact{
   overflow: hidden;
-  max-width: 200px;
-  min-width: 200px;
-  width: 200px;
-  height: 200px;
+  max-width: 300px;
+  min-width: 300px;
+  width: 300px;
+  height: 300px;
   border: 1px solid black;
   border-radius: 50%;
   text-align: center;
