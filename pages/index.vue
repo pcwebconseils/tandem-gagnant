@@ -13,11 +13,13 @@
           href="https://nuxtjs.org/"
           target="_blank"
           class="button--green"
+          rel="noreferrer"
         >Documentation</a>
         <a
           href="https://github.com/nuxt/nuxt.js"
           target="_blank"
           class="button--grey"
+          rel="noreferrer"
         >GitHub</a>
       </div>
     </div>

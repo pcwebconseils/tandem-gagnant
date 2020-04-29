@@ -14,9 +14,12 @@
   z-index: 1;
   top: 0;
   right: 0;
-  background-color: #111;
+  text-transform: uppercase;
+  background: #28AEAA;
+  background: -webkit-gradient(linear, left top, left bottom, from(#0de7c3), color-stop(90%, #28AEAA));
+  background: linear-gradient(180deg, #0de7c3 0%, #28AEAA 90%);
   overflow-x: hidden;
-  padding-top: 20px;
+
 }
 
 .sidenav a {
@@ -25,6 +28,7 @@
   font-size: 25px;
   color: #818181;
   display: block;
+  margin-top: 50%;
 }
 
 .sidenav a:hover {
