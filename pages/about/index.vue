@@ -11,7 +11,7 @@
   </section>
 </template>
 <style>
-article{
+.article{
   text-align: center;
   border:  2px solid #000000;
   border-radius: 50%;

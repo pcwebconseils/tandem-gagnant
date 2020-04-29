@@ -1,13 +1,13 @@
 <template>
   <div>
     <img src="~/static/logo.png" class="logo" alt="tandem gagnant votre partenaire">
-  <h2>Salut</h2>
   </div>
 </template>
 
 <style>
 .logo{
-  width: 50%;
+  max-width: 400px;
+  width: 100%;
   height: auto;
 }
 </style>

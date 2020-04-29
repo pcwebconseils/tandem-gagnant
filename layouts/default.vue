@@ -1,18 +1,16 @@
 <template>
   <div>
-    <Nav/>
     <nuxt />
     <Footer />
     <Sidebar />
   </div>
 </template>
 <script>
-import Nav from '@/components/Nav.vue'
+
 import Footer from  '@/components/Footer.vue'
 import Sidebar from '@/components/Sidebar.vue'
 export default {
   components:{
-    Nav,
     Sidebar,
     Footer,
   }

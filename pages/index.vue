@@ -1,29 +1,18 @@
 <template>
-  <section class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        tuto-2
-      </h1>
-      <h2 class="subtitle">
-        My superb Nuxt.js project
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-          rel="noreferrer"
-        >Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-          rel="noreferrer"
-        >GitHub</a>
+  <main class="container-fluid">
+    <section class="row justify-content-left">
+      <div class="col-md-2 m-5">
+        <logo />
       </div>
-    </div>
-  </section>
+      <nuxt-link to="/" class="links">
+      <article class="col-md-4 about">
+        <h2>Titre</h2>
+        <p>Présentation</p>
+        <img src="@/static/logo.png" alt="a propos de tandem gangant">
+      </article>
+      </nuxt-link>
+    </section>
+  </main>
 </template>
 
 <script>
@@ -40,10 +29,6 @@ export default {
 .container {
   margin: 0 auto;
   min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
 }
 
 .title {
@@ -66,5 +51,21 @@ export default {
 
 .links {
   padding-top: 15px;
+  color: #35495e;
+}
+.links:hover{
+  text-decoration: none;
+  color: #35495e;
+  font-size: 3em;
+}
+.about{
+  overflow: hidden;
+  max-width: 400px;
+  min-width: 400px;
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+  border-radius: 50%;
+  text-align: center;
 }
 </style>
