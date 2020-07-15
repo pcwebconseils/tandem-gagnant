@@ -1,6 +1,8 @@
 <template>
   <div>
-    <nuxt />
+    <main>
+      <nuxt />
+    </main>
     <Footer />
     <Sidebar />
   </div>
@@ -9,10 +11,12 @@
 
 import Footer from  '@/components/Footer.vue'
 import Sidebar from '@/components/Sidebar.vue'
+import Logo from '@/components/Logo.vue'
 export default {
   components:{
     Sidebar,
     Footer,
+    Logo,
   }
 }
 </script>
@@ -34,6 +38,15 @@ html {
 *:after {
   box-sizing: border-box;
   margin: 0;
+}
+main{
+  display: flex;
+  width: 50%;
+  height: 25vh;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid orange;
 }
 
 </style>
