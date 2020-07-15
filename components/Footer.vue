@@ -1,5 +1,5 @@
 <template>
-  <div class="footer">
+  <div class="footer has-background-primary-dark">
     <p>Les liens du footer. </p>
   </div>
 </template>

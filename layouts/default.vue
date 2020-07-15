@@ -1,8 +1,8 @@
 <template>
   <div class="container is-fluid">
     <nuxt />
+    <Sidebar/>
     <Footer />
-    <Sidebar />
   </div>
 </template>
 <script>

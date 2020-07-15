@@ -26,7 +26,7 @@
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: #f5f3f3;
   display: block;
 /*   margin-top: 50%;
  */}
