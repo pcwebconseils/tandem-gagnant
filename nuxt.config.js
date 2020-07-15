@@ -15,7 +15,8 @@ module.exports = {
       { hid: 'description', name: 'description', content: pkg.description }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {}
     ]
   },
 
@@ -39,9 +40,8 @@ module.exports = {
   /*
   ** Nuxt.js modules
   */
-  modules: [,
-    // Doc: https://bootstrap-vue.js.org/docs/
-    'bootstrap-vue/nuxt'
+  modules: [
+    '@nuxtjs/bulma'
   ],
 
   /*
@@ -51,8 +51,12 @@ module.exports = {
     /*
     ** You can extend webpack config here
     */
-    extend(config, ctx) {
-      
+    postcss: {
+      preset: {
+        features: {
+          customProperties : false
+        }
+      }
     }
   }
 }
