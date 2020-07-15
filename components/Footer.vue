@@ -2,7 +2,6 @@
   <div class="footer">
     <nuxt-link to="/">Home</nuxt-link>
     <nuxt-link to="/about">A propos</nuxt-link>
-    <nuxt-link to="#">Mentions légales</nuxt-link>
   </div>
 </template>
 

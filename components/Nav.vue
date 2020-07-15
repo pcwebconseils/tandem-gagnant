@@ -2,9 +2,6 @@
   <header>
     <!-- Nav tabs -->
     <ul class="nav nav-tabs" id="navId">
-      <nuxt-link to="/">Home</nuxt-link>
-
-      <nuxt-link to="/about">A propos</nuxt-link>
     </ul>
 
     <!-- Tab panes -->
