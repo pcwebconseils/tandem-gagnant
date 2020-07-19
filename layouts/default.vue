@@ -1,9 +1,17 @@
 <template>
   <div class="container is-fluid">
-    <nuxt />
-    <Sidebar/>
-    <Footer />
-  </div>
+    <div class="columns">
+      <div class="column is-11">
+        <nuxt />
+      </div>
+      <div class="column is-1 is-hidden-mobile">
+        <Sidebar />
+      </div>
+    </div>
+<!--     <div class="footer">
+      <Footer />
+      </div>
+ -->  </div>
 </template>
 <script>
 import Footer from "@/components/Footer.vue";
@@ -27,8 +35,9 @@ html {
   -webkit-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-
-}
+/*   box-sizing: border-box;
+  margin: 0;
+ */}
 
 *,
 *:before,
@@ -36,13 +45,16 @@ html {
   box-sizing: border-box;
   margin: 0;
 }
-.container{
-  background-color: darkcyan;
-
+.container {
+  padding-left: 0;
+  padding-right: 0;
+  height: 100vh;
 }
-.logo{
+.logo {
   width: 100%;
   height: auto;
 }
+.footer{
 
+}
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="sidenav is-1">
+  <div class="sidenav">
     <nuxt-link to="/">Home</nuxt-link>
     <nuxt-link to="/about">A propos</nuxt-link>
     <nuxt-link to="/partenaires">Partenaires</nuxt-link>
