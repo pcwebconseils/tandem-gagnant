@@ -16,13 +16,11 @@
 <script>
 import Footer from "@/components/Footer.vue";
 import Sidebar from "@/components/Sidebar.vue";
-import Logo from "@/components/Logo.vue";
 export default {
   components: {
     Sidebar,
     Footer,
-    Logo
-  }
+     }
 };
 </script>
 <style>
@@ -49,10 +47,6 @@ html {
   padding-left: 0;
   padding-right: 0;
   height: 100vh;
-}
-.logo {
-  width: 100%;
-  height: auto;
 }
 
 </style>

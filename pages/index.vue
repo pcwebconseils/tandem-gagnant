@@ -1,40 +1,39 @@
 <template>
      <div class="main">
     <div class="tile is-ancestor">
-      <div class="tile is-parent">
-        <div class="tile is-child">
-            <figure>
+      <div class="tile is-parent ">
+        <div class="tile is-child ">
+            <figure class="logo trait">
               <img src="/logo.png" alt="">
             </figure>
         </div>
     </div>
     
-    <div class="tile is-parent">
-        <div class="tile is-child is-10">
+    <div class="tile is-parent mt-3">
+        <div class="tile is-child is-8">
           <article class="circle">
             <div class="circle-content">
-              <h3 class="title">Mes services</h3>
+              <h3 class="title has-text-light">Mes services</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos assumenda sequi illo pariatur, sint laudantium nemo sed fugit quas dicta? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, provident tempore ipsum praesentium dolores dolor amet quod necessitatibus nam reprehenderit optio magnam. Quasi, nam. Cupiditate dignissimos provident sunt obcaecati laudantium. Quia, necessitatibus autem sint debitis amet fugit obcaecati voluptate?</p>
               <button>lien </button>
             </div>
           </article>
         </div>
         <div class="tile is-child">
-          <article class="circle">
+          <article class="circle-small-contact">
             <div class="circle-content">
-              <h3 class="title">Contact</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis a repudiandae pariatur possimus sit autem?</p>
+              <h3 class="title ">Contact</h3>
+              <p class="" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis a repudiandae pariatur possimus sit autem?</p>
               <button>bouton de clic</button>
             </div>
           </article>
         </div>
       </div>
-    </a>
     </div>
     <div class="tile is-ancestor">
       <div class="tile is-parent">
         <div class="tile is-child is-8">
-          <article class="circle">
+          <article class="circle-about box">
             <div class="circle-content">
               <h3 class="title">Vincent</h3>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere voluptas esse eum officia iure nobis id, sequi cum suscipit tenetur. Ea laborum alias ipsam ipsum sequi tenetur illo error molestiae.</p>
@@ -43,7 +42,7 @@
           </article>
         </div>
         <div class="tile is-child">
-          <article class="circle">
+          <article class="circle-small">
             <div class="circle-content">
               <h3 class="title">quatre</h3>
               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate qui mollitia, voluptatum rem soluta culpa eum accusantium ab nesciunt veritatis?</p>
@@ -53,11 +52,11 @@
         </div>
       </div>
       <div class="tile is-parent">
-        <div class="tile is-child is-10">
+        <div class="tile is-child is-6">
           <article class="circle">
             <div class="circle-content">
-              <h3 class="title">cinq</h3>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate qui mollitia, voluptatum rem soluta culpa eum accusantium ab nesciunt veritatis?</p>
+              <h3 class="title has-text-white-ter">cinq</h3>
+              <p class="has-text-white-ter">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate qui mollitia, voluptatum rem soluta culpa eum accusantium ab nesciunt veritatis?</p>
               <button>lien </button>
             </div>
           </article>
@@ -65,9 +64,9 @@
         <div class="tile is-child">
           <article class="circle">
             <div class="circle-content">
-              <h3 class="title">six</h3>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate qui mollitia, voluptatum rem soluta culpa eum accusantium ab nesciunt veritatis?</p>
-              <button>lien </button>
+              <h3 class="title has-text-white-ter">six</h3>
+              <p class="has-text-white-ter">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate qui mollitia, voluptatum rem soluta culpa eum accusantium ab nesciunt veritatis?</p>
+              <button>lien</button>
             </div>
           </article>
         </div>
@@ -89,16 +88,44 @@ main{
     height: 100vh;
 }
 .circle{
-    border: gold 0.2rem solid;
+    background-color: rgb(240, 164, 0);
     border-radius: 50%;
     height: 0;
     padding-top: 100%;
     width: 100%;
     position: relative;
-    transform: translate(0, 0);
     overflow: hidden;
 }
-
+.circle-small-contact{
+    border: #28AEAA 0.2rem solid;
+    border-radius: 50%;
+    height: 0;
+    padding-top: 100%;
+    width: 100%;
+    position: relative;
+    transform: translate(15%, 80%);
+    overflow: hidden;
+}
+.circle-small{
+    border: #28AEAA 0.2rem solid;
+    border-radius: 50%;
+    height: 0;
+    padding-top: 100%;
+    width: 100%;
+    position: relative;
+    transform: translate(-10%, 90%);
+    overflow: hidden;
+}
+.circle-about{
+    border: rgb(0, 255, 157) 0.2rem solid;
+    border-radius: 50%;
+    height: 0;
+    padding-top: 100%;
+    width: 100%;
+    position: relative;
+    transform: translate(-150% 0);
+    overflow: hidden;
+}
 .circle-content{
     /* padding-top: 50%; */
     height: 100%;
@@ -112,7 +139,19 @@ main{
     text-align: center;
     white-space: pre-wrap;
 }
-
+.logo{
+  width: 75%;
+  height: auto;
+  margin-left: 5%;
+}
+.trait::after{
+  content: '';
+  display: block;
+  width: 150%;
+  height: 0.25em;
+  background-color: #28AEAA;
+  transform: translate(0, -400%);
+}
 @media screen and (max-width: 375px){
     .circle{
         border: rgb(0, 255, 149) 0.2rem solid;
