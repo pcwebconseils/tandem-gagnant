@@ -4,9 +4,10 @@
     <nuxt-link to="/about">A propos</nuxt-link>
     <nuxt-link to="/partenaires">Partenaires</nuxt-link>
     <nuxt-link to="/services">Mes services</nuxt-link>
-    <nuxt-link to="/contact">Contact</nuxt-link>
+    <nuxt-link to="/contact">contact</nuxt-link>
 </div>
 </template>
+
 <style>
 .sidenav {
   height: 100%;
