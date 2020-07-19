@@ -10,8 +10,8 @@
 <style>
 .sidenav {
   height: 100%;
-/*   width: 5%;
- */  position: fixed;
+  width: 5%;
+  position: fixed;
   z-index: 1;
   top: 0;
   right: 0;

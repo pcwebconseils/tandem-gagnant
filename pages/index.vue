@@ -10,7 +10,7 @@
     </div>
     
     <div class="tile is-parent">
-        <div class="tile is-child is-8">
+        <div class="tile is-child is-10">
           <article class="circle">
             <div class="circle-content">
               <h3 class="title">Mes services</h3>
@@ -95,75 +95,24 @@ main{
     padding-top: 100%;
     width: 100%;
     position: relative;
-    /* transform: translate(0, 0); */
+    transform: translate(0, 0);
     overflow: hidden;
 }
-.circle-full{
-    background-color: rgb(231, 150, 0);
-    border-radius: 50%;
-    height: 0;
-    padding-top: 100%;
-    width: 100%;
-    position: relative;
-    /* transform: translate(-10%, 10%); */
-    overflow: hidden;
-}
-.circle-full{
-    background-color: rgb(231, 150, 0);
-    border-radius: 50%;
-    height: 0;
-    padding-top: 100%;
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-    /* transform: translate(0,0); */
-}
-.circle{
-    border: rgb(40, 18, 236) 0.2rem solid;
-    border-radius: 50%;
-    height: 0;
-    padding-top: 100%;
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-    /* transform: translate(5em, 0); */
-}
-.circle{
-    border: 2px solid rgb(214, 15, 64);
-    border-radius: 50%;
-    height: 0;
-    padding-top: 100%;
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-    /* transform: translate(5em, 0); */
-}
-.circle{
-    border: rgb(11, 216, 52) 0.2rem solid;
-    border-radius: 50%;
-    height: 0;
-    padding-top: 100%;
-    width: 100%;
-    position: relative;
-    /* transform: translate(50%, 250%); */
-}
+
 .circle-content{
     /* padding-top: 50%; */
     height: 100%;
     width: 100%;
+    margin-top: 2em;
+    padding-right: 2em;
+    padding-left: 2em;
     position: absolute;
     top: 50%; left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     white-space: pre-wrap;
 }
-.circle-content p{
-  margin: 1rem;
-}
-.trait{
-    border-bottom: rgb(0, 255, 179) 0.15rem solid;
-    /* transform: translateY(-12em); */
-}
+
 @media screen and (max-width: 375px){
     .circle{
         border: rgb(0, 255, 149) 0.2rem solid;

@@ -4,7 +4,7 @@
       <div class="column is-11">
         <nuxt />
       </div>
-      <div class="column is-1 is-hidden-mobile">
+      <div class="column is-hidden-mobile">
         <Sidebar />
       </div>
     </div>
@@ -54,7 +54,5 @@ html {
   width: 100%;
   height: auto;
 }
-.footer{
 
-}
 </style>
