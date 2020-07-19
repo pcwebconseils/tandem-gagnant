@@ -1,29 +1,29 @@
 <template>
      <div class="main">
     <div class="tile is-ancestor">
-      <div class="tile is-parent is-vertical">
+      <div class="tile is-parent">
         <div class="tile is-child">
-            <figure class="mt-6 ml-6">
+            <figure>
               <img src="/logo.png" alt="">
             </figure>
         </div>
-        <div class="tile is-child trait">
-      </div>
     </div>
     
     <div class="tile is-parent">
         <div class="tile is-child is-8">
-          <article class="circle-full">
-            <div class="circle-content mt-6">
-              <h2 class="title">Contact</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos assumenda sequi illo pariatur, sint laudantium nemo sed fugit quas dicta?<br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, provident tempore ipsum praesentium dolores dolor amet quod necessitatibus nam reprehenderit optio magnam. Quasi, nam. Cupiditate dignissimos provident sunt obcaecati laudantium. Quia, necessitatibus autem sint debitis amet fugit obcaecati voluptate?</p>
+          <article class="circle">
+            <div class="circle-content">
+              <h3 class="title">Mes services</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos assumenda sequi illo pariatur, sint laudantium nemo sed fugit quas dicta? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, provident tempore ipsum praesentium dolores dolor amet quod necessitatibus nam reprehenderit optio magnam. Quasi, nam. Cupiditate dignissimos provident sunt obcaecati laudantium. Quia, necessitatibus autem sint debitis amet fugit obcaecati voluptate?</p>
+              <button>lien </button>
             </div>
           </article>
         </div>
         <div class="tile is-child">
-          <article class="circle-bas">
+          <article class="circle">
             <div class="circle-content">
-              <h2 class="title">Contact</h2>
+              <h3 class="title">Contact</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis a repudiandae pariatur possimus sit autem?</p>
               <button>bouton de clic</button>
             </div>
           </article>
@@ -33,37 +33,41 @@
     </div>
     <div class="tile is-ancestor">
       <div class="tile is-parent">
-        <div class="tile is-child is-6">
-          <article class="circle-service-1">
+        <div class="tile is-child is-8">
+          <article class="circle">
             <div class="circle-content">
-              <h2 class="title">Vertical tiles</h2>
-              <p>Top box</p>
+              <h3 class="title">Vincent</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere voluptas esse eum officia iure nobis id, sequi cum suscipit tenetur. Ea laborum alias ipsam ipsum sequi tenetur illo error molestiae.</p>
+              <button>lien </button>
             </div>
           </article>
         </div>
-        <div class="tile is-child is-3">
-          <article class="circle-full-1  ">
+        <div class="tile is-child">
+          <article class="circle">
             <div class="circle-content">
-              <h2 class="title">Vertical tiles</h2>
-              <p>Top box</p>
+              <h3 class="title">quatre</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate qui mollitia, voluptatum rem soluta culpa eum accusantium ab nesciunt veritatis?</p>
+              <button>lien </button>
             </div>
           </article>
         </div>
       </div>
       <div class="tile is-parent">
-        <div class="tile is-child">
-          <article class="circle-service">
+        <div class="tile is-child is-10">
+          <article class="circle">
             <div class="circle-content">
-              <h2 class="title">Vertical tiles</h2>
-              <p>Top box</p>
+              <h3 class="title">cinq</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate qui mollitia, voluptatum rem soluta culpa eum accusantium ab nesciunt veritatis?</p>
+              <button>lien </button>
             </div>
           </article>
         </div>
         <div class="tile is-child">
-          <article class="circle-full">
+          <article class="circle">
             <div class="circle-content">
-              <h2 class="title">Vertical tiles</h2>
-              <p>Top box</p>
+              <h3 class="title">six</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate qui mollitia, voluptatum rem soluta culpa eum accusantium ab nesciunt veritatis?</p>
+              <button>lien </button>
             </div>
           </article>
         </div>
@@ -91,32 +95,30 @@ main{
     padding-top: 100%;
     width: 100%;
     position: relative;
-    transform: translate(0, 0);
+    /* transform: translate(0, 0); */
     overflow: hidden;
 }
 .circle-full{
     background-color: rgb(231, 150, 0);
-    border: 2px solid rgb(214, 15, 64);
     border-radius: 50%;
     height: 0;
     padding-top: 100%;
     width: 100%;
     position: relative;
-    transform: translate(-10%, 10%);
+    /* transform: translate(-10%, 10%); */
     overflow: hidden;
 }
-.circle-full-1{
+.circle-full{
     background-color: rgb(231, 150, 0);
-    border: 2px solid rgb(214, 15, 64);
     border-radius: 50%;
     height: 0;
     padding-top: 100%;
     width: 100%;
     position: relative;
     overflow: hidden;
-    transform: translate(0, 20em);
+    /* transform: translate(0,0); */
 }
-.circle-service{
+.circle{
     border: rgb(40, 18, 236) 0.2rem solid;
     border-radius: 50%;
     height: 0;
@@ -124,9 +126,9 @@ main{
     width: 100%;
     position: relative;
     overflow: hidden;
-    transform: translate(5em, 0);
+    /* transform: translate(5em, 0); */
 }
-.circle-service-1{
+.circle{
     border: 2px solid rgb(214, 15, 64);
     border-radius: 50%;
     height: 0;
@@ -134,17 +136,9 @@ main{
     width: 100%;
     position: relative;
     overflow: hidden;
-    transform: translate(5em, 0);
+    /* transform: translate(5em, 0); */
 }
-.circle-content{
-    /* padding-top: 50%; */
-    height: 100%;
-    position: absolute;
-    top: 50%; left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-.circle-bas{
+.circle{
     border: rgb(11, 216, 52) 0.2rem solid;
     border-radius: 50%;
     height: 0;
@@ -153,17 +147,26 @@ main{
     position: relative;
     /* transform: translate(50%, 250%); */
 }
-img{
-    width: 50%;
-    height: auto;
+.circle-content{
+    /* padding-top: 50%; */
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    white-space: pre-wrap;
+}
+.circle-content p{
+  margin: 1rem;
 }
 .trait{
     border-bottom: rgb(0, 255, 179) 0.15rem solid;
     /* transform: translateY(-12em); */
 }
-@media screen and (max-width: 374px){
+@media screen and (max-width: 375px){
     .circle{
-        border: rgb(0, 255, 64) 0.2rem solid;
+        border: rgb(0, 255, 149) 0.2rem solid;
         border-radius: 50%;
         height: 0;
         padding-top: 75%;
