@@ -36,8 +36,7 @@
           <article class="circle-about">
             <div class="circle-content">
               <h3 class="title has-text-white-ter	">Vincent</h3>
-              <p class="has-text-white-ter	">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere voluptas esse eum officia iure nobis id, sequi cum suscipit tenetur. Ea laborum alias ipsam ipsum sequi tenetur illo error molestiae.</p>
-              <button>lien </button>
+              <p class="has-text-white-ter">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere voluptas esse eum officia iure nobis id, sequi cum suscipit tenetur. Ea laborum alias ipsam ipsum sequi tenetur illo error molestiae.</p>
             </div>
           </article>
         </div>
@@ -145,7 +144,7 @@ main{
     padding-top: 100%;
     width: 100%;
     position: relative;
-    transform: translate(-150% 0);
+    /* transform: translate(-150% 0); */
     overflow: hidden;
 }
 .circle-content{
