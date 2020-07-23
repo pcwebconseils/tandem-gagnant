@@ -8,10 +8,10 @@
         <Sidebar />
       </div>
     </div>
-<!--     <div class="footer">
+   <div>
       <Footer />
-      </div>
- -->  </div>
+    </div>
+</div>
 </template>
 <script>
 import Footer from "@/components/Footer.vue";
@@ -46,7 +46,7 @@ html {
 .container {
   padding-left: 0;
   padding-right: 0;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 </style>

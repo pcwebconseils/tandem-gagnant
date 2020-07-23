@@ -43,7 +43,21 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: [
-    '@nuxtjs/bulma'
+    '@nuxtjs/bulma',
+    [
+      'nuxt-fontawesome', {
+        imports: [
+         {
+           set: '@fortawesome/free-solid-svg-icons',
+           icons: ['fas']
+         },
+         {
+           set:'@fortawesome/free-brands-svg-icons',
+           icons: ['fab']
+         }
+       ]
+      }
+]
   ],
 
   /*

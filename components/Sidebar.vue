@@ -1,14 +1,14 @@
 <template>
   <div class="sidenav">
-    <nuxt-link to="/">Home</nuxt-link>
-    <nuxt-link to="/about">A propos</nuxt-link>
-    <nuxt-link to="/partenaires">Partenaires</nuxt-link>
-    <nuxt-link to="/services">Mes services</nuxt-link>
-    <nuxt-link to="/contact">contact</nuxt-link>
+    <nuxt-link to="/"><font-awesome-icon :icon="['fas', 'home']"/></nuxt-link>
+    <nuxt-link to="/about"><font-awesome-icon :icon="['fas', 'quote-left']"/></nuxt-link>
+    <nuxt-link to="/partenaires"><font-awesome-icon :icon="['fas', 'people-arrows']"/></nuxt-link>
+    <nuxt-link to="/services"><font-awesome-icon :icon="['fas', 'business-time']"/></nuxt-link>
+    <nuxt-link to="/contact"><font-awesome-icon :icon="['fas', 'coffee']"/></nuxt-link>
 </div>
 </template>
 
-<style>
+<style scoped>
 .sidenav {
   height: 100%;
   width: 5%;
@@ -35,5 +35,10 @@
 .sidenav a:hover {
   color: #f1f1f1;
 }
-
+.nuxt-link-exact-active{
+  -webkit-box-shadow: 10px 10px 20px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 20px 2px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 20px 1px rgba(0,0,0,0.75);
+margin-bottom: 1em;
+}
 </style>

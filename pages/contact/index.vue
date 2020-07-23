@@ -1,3 +1,3 @@
 <template>
-    <h1>Hello la page contact</h1>
+    <h1>Page de contact</h1>
 </template>
