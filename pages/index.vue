@@ -87,9 +87,6 @@ export default {
 <style>
 /* Queries pour Desktop */
 @media (min-width: 768px){
-main{
-    /* height: 100vh; */
-}
 .circle{
     background-color: #e78f0a;
     border-radius: 50%;
